@@ -12,6 +12,9 @@ section.full-screen {
 }
 
 nav {
+  position: fixed;
+  background-color: white;
+  width: 100%;
   display: flex;
   align-items: center;
   height: 52px;
@@ -46,6 +49,26 @@ nav > span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 48px;
+}
+
+nav .circle-red {
+  font-size: 8px;
+  background-color: red;
+  border-radius: 100%;
+  width: 16px;
+  height: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 8px;
+  right: -8px;
+}
+
+.relative-container {
+  position: relative;
 }
 
 #header h1 {
@@ -130,8 +153,9 @@ button[type="submit"] {
   border: 1px solid white;
   border-radius: 4px;
   width: 100%;
-  padding: 16px 32px;
-  font-size: 18px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
 }
 
