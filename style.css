@@ -41,7 +41,7 @@ nav > span {
   align-items: center;
 }
 
-#header {
+header {
   text-align: center;
   color: white;
   background-color: #222222;
@@ -71,11 +71,11 @@ nav .circle-red {
   position: relative;
 }
 
-#header h1 {
+header h1 {
   margin: 16px;
 }
 
-#header p {
+header p {
   margin: 0;
 }
 
