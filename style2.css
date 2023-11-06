@@ -1,0 +1,23 @@
+* {
+  font-size: 24px;
+}
+
+body {
+  font-size: 50px;
+}
+
+p {
+  font-size: 0.6rem;
+}
+
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  p {
+    font-size: 1rem;
+  }
+}
